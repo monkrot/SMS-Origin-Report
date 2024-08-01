@@ -17,8 +17,8 @@ var style_SMSCodeFarmerList_6 = function(feature, resolution){
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if (feature.get("FarmID") !== null) {
-        labelText = String(feature.get("FarmID"));
+    if (feature.get("") !== null) {
+        labelText = String(feature.get(""));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
